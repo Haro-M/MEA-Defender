@@ -30,6 +30,6 @@ python model_distillation.py --epochs=100
 
 Test watermark:
 ```bash
-python load_and_test.py --load_path LOAD_PATH --load_checkpoint LOAD_CHECKPOINT
+python load_and_test.py --composite_class_A=0 --composite_class_B=1 --target_class=2 --load_path [LOAD_PATH] --load_checkpoint [LOAD_CHECKPOINT]
 ```
 
