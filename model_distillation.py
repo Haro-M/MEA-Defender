@@ -128,7 +128,7 @@ def distill(epochs, teacher, student, trainloader, testloader, temp=7):
                 "net": student.state_dict(),
                 "epoch": epoch
             }
-            torch.save(checkpoint, STUDENT_PATH+"/backup_{DATASET}-student-model.pth")
+            torch.save(checkpoint, STUDENT_PATH+"/backup_cifar10-student-model.pth")
             best_acc = acc
             best_epoch = epoch
             print("checkpoint saved !")
