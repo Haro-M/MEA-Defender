@@ -6,7 +6,7 @@ This code includes experiments for paper "MEA-Defender: A Robust Watermark again
 
 The following is the workflow of MEA-Defender:
 
-![alt text](workflow1.jpg)
+![alt text](overview.jpg)
 
 ## Usage
 
