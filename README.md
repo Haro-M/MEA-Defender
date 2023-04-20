@@ -1,10 +1,10 @@
-# Combination Watermark
-This repository contains the PyTorch implementation of "Combination Watermark: A Robust Watermark against Model Extraction Attack".
+# MEA-Defender
+This repository contains the PyTorch implementation of "MEA-Defender: A Robust Watermark against Model Extraction Attack".
 
 ## Introduction
-This code includes experiments for paper "Combination Watermark: A Robust Watermark against Model Extraction Attack".
+This code includes experiments for paper "MEA-Defender: A Robust Watermark against Model Extraction Attack".
 
-The following is the workflow of Combination Watermark:
+The following is the workflow of MEA-Defender:
 
 ![alt text](workflow1.jpg)
 
