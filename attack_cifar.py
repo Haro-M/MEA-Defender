@@ -137,14 +137,6 @@ if __name__ == '__main__':
         best_poi = checkpoint['best_poi']
         print('---Checkpoint resumed!---')
 
-    ####verify poison1### used to verify the performance of the teacher model
-
-    checkpoint = torch.load("forTSNE/checkpoint_0_0.0085_poison.pth.tar")
-    net.load_state_dict(checkpoint['net_state_dict'])
-    acc_p, avg_loss = val_new(net, poi_loader, criterion)
-    print('Poison accuracy:', acc_p)
-    acc_v, avg_loss = val(net, val_loader, criterion)
-    print('Main task accuracy:', acc_v)
     
     while epoch < MAX_EPOCH:
 
